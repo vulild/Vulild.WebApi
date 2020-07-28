@@ -45,7 +45,7 @@ namespace Vulild.WebApi.Entrance
 
             app.UseAuthorization();
 
-            app.UserAssemblySearch();
+            app.UseAssemblySearch();
 
             app.UseEndpoints(endpoints =>
             {

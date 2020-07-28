@@ -11,7 +11,7 @@ namespace Vulild.WebApi
 {
     public static class AssemblySearchExtension
     {
-        public static void UserAssemblySearch(this IApplicationBuilder app)
+        public static void UseAssemblySearch(this IApplicationBuilder app)
         {
             var assemblySearch = ServiceUtil.GetService<IAssemblySearch>();
             assemblySearch.Search();
