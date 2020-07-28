@@ -26,6 +26,7 @@ namespace Vulild.WebApi.Entrance
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddServices(Configuration);
+            services.AddServiceMap();
             services.AddControllers()
                     .AddAssemblyControllers();
         }

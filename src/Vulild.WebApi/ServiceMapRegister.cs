@@ -11,7 +11,7 @@ namespace Vulild.WebApi
 {
     public static class ServiceMapRegister
     {
-        public static void AddServiceMap(this ServiceCollection services)
+        public static void AddServiceMap(this IServiceCollection services)
         {
             var assemblySearch = ServiceUtil.GetService<IAssemblySearch>();
             assemblySearch.TypeDeal += ServiceUtil.TypeDeal;
