@@ -1,0 +1,10 @@
+[
+  {
+    "TypeName": "Vulild.Service.AssemblyService.AssemblySearchOption",
+    "Key": "AssemblySearch",
+    "Option": {
+      "Paths": [ "OhterControllers" ]
+    }
+  }
+
+]
